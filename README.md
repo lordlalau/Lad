@@ -6,154 +6,90 @@
 
 **Uma ilha no topo da tela do Windows, com um companheiro morando nela.**
 
-Música, FPS, alertas, chat com IA e um bichinho que pisca, dança e lembra você de beber água.
-
-[**⬇ Baixar o Lad.**](https://github.com/SEU-USUARIO/lad/releases/latest)
+[**⬇ Baixar o Lad.**](https://github.com/lordlalau/lad/releases/latest)
 
 </div>
 
 ---
 
-# 🫧 O que é o Lad.
+# A ilha e a música
 
-O Lad. é uma pílula preta que fica no alto da tela, parecida com a ilha dinâmica do iPhone, só que no Windows. Ela fica pequena e discreta enquanto você trabalha ou joga. Quando o mouse chega perto, ela se abre e mostra o que importa.
+<img src="musica.gif" alt="A ilha abrindo com a música tocando e fechando com as ondas" width="640">
 
-Dentro dela mora o **Lad.**, um bichinho branco e gelatinoso. Ele não é só enfeite: reage ao que acontece no seu PC, muda de humor, dança com a sua música e conversa com você.
+Fica pequena no topo da tela e se abre quando o mouse chega perto. Dentro dela mora o **Lad.**, que pisca, segue o mouse com os olhos, cochila e curte a sua música.
 
----
-
-# 👀 O companheiro
-
-- **Entrada animada**: quando o app abre, o Lad. cai dentro da ilha, solta faíscas, olha em volta, dá uma piscadinha e se acomoda.
-- **Vivo o tempo todo**: pisca, olha para os lados e cochila quando você some por um tempo.
-- **Humores**: feliz, surpreso, sonolento, curtindo a música.
-- **Segue o mouse** com os olhos.
-- **Não dorme enquanto você conversa** com ele no chat.
-- **Fala com você**: deseja bom dia, boa tarde e boa noite pelo seu nome.
-- **Relógio, data e clima** da sua cidade ao lado dele.
+Mostra o que está tocando no **Spotify** e no **YouTube Music**, com capa e controles. Na ilha compacta, aparecem **ondas animadas** no ritmo da música.
 
 ---
 
-# 🏝️ A ilha
+# Monitor de FPS
 
-- **Compacta**: uma pílula pequena no topo, com o Lad. e as ondinhas da música.
-- **Compacta larga**: mostra também os ícones das ferramentas ligadas.
-- **Aberta**: a Home com saudação, data, o Lad. grande e o quadrante de ferramentas.
-- **Animações suaves** entre um tamanho e outro.
-- **Fixar** (o alfinete): deixa a ilha aberta até você soltar.
-- **Inicia com o Windows**, se você quiser, e fica na bandeja do sistema.
+<img src="fps.gif" alt="Monitor de FPS com gráfico, CPU, GPU e temperatura" width="640">
 
----
+**FPS do jogo em tempo real**, mais 1% Low, frametime, CPU, GPU e temperatura, com gráfico. Com a ilha compacta, os números ficam à vista no topo da tela.
 
-# 🎵 Música
-
-- Mostra **o que está tocando** no Spotify, no YouTube Music e em outros players do Windows.
-- **Capa, nome e artista** na ilha aberta.
-- **Ondas animadas** na ilha compacta, no ritmo da música.
-- **O Lad. dança** quando a música toca.
-- Controles de **tocar, pausar, avançar e voltar**.
+<sub>Os números do GIF são de demonstração.</sub>
 
 ---
 
-# 🎮 Monitor de FPS e hardware
+# Chat com IA
 
-- **FPS do jogo em tempo real**, direto na ilha (usa o PresentMon, da Intel).
-- **HUD** com FPS, 1% Low, tempo de quadro (ms), uso de CPU e GPU e temperatura da GPU, com gráfico.
-- O instalador **oferece instalar o PresentMon** sozinho. Se faltar depois, tem um botão para instalar de dentro do app.
+<img src="chat.gif" alt="Chat respondendo e gerando a imagem de uma banana no espaço" width="720">
 
----
+Converse com o **ChatGPT** (pela sua conta ou com chave de API) ou com o **Claude**. Ele pesquisa na internet e **gera imagens**. Clique numa imagem para ver em tela cheia.
 
-# 💬 Chat com IA
-
-Converse com uma IA sem sair do que você está fazendo.
-
-- **ChatGPT**, de dois jeitos:
-  - **Conta**: usa o login do seu ChatGPT, pelo Codex. Não precisa pagar à parte.
-  - **Chave de API**: usa uma chave da OpenAI.
-- **Claude**, com chave da Anthropic.
-- **Busca na internet** para responder coisas atuais.
-- **Gera imagens** pedindo em texto (ex.: "uma banana no espaço"). A imagem vai se formando com um efeito de pontinhos e porcentagem.
-- **Clique na imagem** para ver em tela cheia. Também dá para salvar (vai para *Imagens\Lad*).
-- Enquanto a IA pensa, o Lad. fica com **cara de pensativo**, com os três pontinhos em cima da cabeça.
-- As chaves ficam guardadas **no Gerenciador de Credenciais do Windows**, nunca em arquivo de texto.
-
-> A geração de imagem pela conta exige ChatGPT Go ou superior.
+<sub>A geração de imagem pela conta exige ChatGPT Go ou superior.</sub>
 
 ---
 
-# ⏰ Alertas
+# Alertas
 
-- **Cronômetro**: atalhos de 1, 5, 10, 15, 30 e 60 minutos, ou o tempo que você digitar.
-- **Alarme**: em um dia e horário (ex.: *07/11 às 08:30*, *amanhã*, ou só o horário).
-- Dê um **nome** ao alerta, se quiser.
-- Quando chega a hora: **som**, a ilha **vibra** e o Lad. fica **surpreso**.
-- Os alertas **continuam salvos** mesmo se você fechar o app.
+<img src="alertas.gif" alt="Cronômetro de 5 minutos terminando, com a ilha vibrando" width="640">
+
+**Cronômetros** e **alarmes** com dia e horário. Quando chega a hora, a ilha vibra, toca um som e o Lad. leva um susto.
 
 ---
 
-# 💧 Lembretes do Lad.
+# Lembretes
 
-O Lad. cuida de você:
+<img src="lembrete.gif" alt="Ilha compacta mostrando 'Já bebeu uma aguinha, lenda?'" width="420">
 
-- A cada **2 horas** de uso: *"Já bebeu uma aguinha, lenda?"*
-- De madrugada:
-  - **1h**: *"Ta ficando tarde, lenda"*
-  - **3h**: *"Soninho.."*
-  - **5h**: *"Vai dormir, moço"*
-
-Com a ilha compacta, ela se alarga por alguns segundos para mostrar a frase, com o mesmo efeito de letrinhas da abertura.
+A cada 2 horas, o Lad. lembra você de beber água. De madrugada, ele avisa que já está tarde.
 
 ---
 
-# 🐣 Mini Lads
+# Mini Lads
 
-Cada ferramenta tem o seu próprio Lad. em miniatura, com cor e pose própria:
+<img src="mini.gif" alt="Mini Lads nos botões e o Lad. ficando verde com o Spotify" width="640">
 
-| Ferramenta | Cor | Jeitinho |
-|---|---|---|
-| Monitor de FPS | Lilás | Concentrado, de fone, inclinado para a tela |
-| Alertas | Âmbar | Esticado e atento, com dois "!" na cabeça |
-| Spotify | Verde | Curtindo, cabeça de lado e bochechas coradas |
-| YouTube Music | Vermelho | Largadão, achatado e com sono |
-
-Eles se mexem um de cada vez: piscam, olham para os lados, pulam, cochilam. Na ilha compacta, aparecem empilhados à direita.
+Cada ferramenta tem o seu Lad. em miniatura, com cor e jeitinho próprios. Se você quiser, o Lad. grande também **fica da cor da ferramenta** que você escolher.
 
 ---
 
-# 👕 Guarda-Roupa
+# Guarda-Roupa
 
-- **12 cores pastel** para o corpo do Lad.
-- Opção de deixar o Lad. **com a cor da ferramenta** ativa (verde no Spotify, vermelho no YouTube Music, e assim por diante).
+<img src="roupa.gif" alt="Lad. trocando de cor no Guarda-Roupa" width="720">
 
----
-
-# ⚙️ Configurações
-
-- Seu **nome**, para o Lad. te chamar.
-- Ligar ou desligar a **animação de entrada** e as **frases**; volume dos sons.
-- **Cidade do clima**, relógio de 24h, °C ou °F.
-- Estilo da ilha compacta, tempo para abrir e fechar, e modo **menos movimento**.
-- **Iniciar com o Windows**.
-- Escolher o modo do **ChatGPT** e cadastrar as **chaves**.
-- **Atualizações automáticas**: quando sai uma versão nova, aparece um pontinho no botão de configurações. Um clique e o Lad. se atualiza sozinho.
+**12 cores pastel** para deixar o Lad. do seu jeito.
 
 ---
 
-# 🪶 Leve
+# E mais
 
-- Instalador com cerca de **2,4 MB**.
-- Quando a ilha está compacta, o Lad. **economiza memória** sozinho.
-- Uso de processador **baixo**, normalmente abaixo de 3%.
+- **Atualiza sozinho**: quando sai uma versão nova, é só um clique.
+- **Leve**: instalador de 2,4 MB e economia de memória quando a ilha está compacta.
+- **Configurações** para o seu nome, a cidade do clima, os sons, o jeito da ilha compacta e muito mais.
+- **Inicia com o Windows**, se você quiser.
 
 ---
 
-# ⬇️ Como instalar
+# Como instalar
 
-1. Abra a página de [**Releases**](https://github.com/SEU-USUARIO/lad/releases/latest).
-2. Baixe o arquivo **`Lad_x.x.x_x64-setup.exe`**.
+1. Abra a página de [**Releases**](https://github.com/lordlalau/lad/releases/latest).
+2. Em **Assets**, baixe o arquivo **`Lad_x.x.x_x64-setup.exe`**.
 3. Abra o instalador.
-4. Se o Windows mostrar **"O Windows protegeu o computador"**, clique em **Mais informações** e depois em **Executar assim mesmo**. Esse aviso aparece porque o app é novo e ainda não tem assinatura paga. Não é vírus.
-5. Quando o instalador perguntar, aceite instalar o **PresentMon** se quiser ver o FPS dos jogos.
+4. Se aparecer **"O Windows protegeu o computador"**, clique em **Mais informações** e depois em **Executar assim mesmo**. O aviso aparece porque o app é novo.
+5. Para ver o FPS dos jogos, aceite instalar o **PresentMon** quando o instalador perguntar.
 
 Requer **Windows 10 ou 11 (64 bits)**.
 
