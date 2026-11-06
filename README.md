@@ -34,7 +34,7 @@ Mostra o que está tocando no **Spotify** e no **YouTube Music**, com capa e con
 
 # Chat com IA
 
-<img src="chat.gif" alt="Chat respondendo e gerando a imagem de uma banana no espaço" width="720">
+<img src="chat-banana.gif" alt="Chat respondendo e gerando a imagem de uma banana no espaço" width="720">
 
 Converse com o **ChatGPT** (pela sua conta ou com chave de API) ou com o **Claude**. Ele pesquisa na internet e **gera imagens**. Clique numa imagem para ver em tela cheia.
 
