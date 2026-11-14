@@ -1,102 +1,132 @@
-<div align="center">
+<p align="center">
+  <img src="icone.png" width="120" alt="Ícone do Lad." />
+</p>
 
-<img src="lad.gif" alt="Lad. caindo na ilha, olhando em volta e se acomodando" width="720">
+<h1 align="center">Lad.</h1>
 
-# Lad.
+<p align="center">
+  Uma ilha no topo da tela do Windows que ouve, responde e mexe no computador por você.<br />
+  Esta versão foi pensada para ser <b>um Jarvis para o seu computador</b>.
+</p>
 
-**Uma ilha no topo da tela do Windows, com um companheiro morando nela.**
+<p align="center">
+  <img src="gifs/abertura.gif" alt="Abertura do Lad." />
+</p>
+
+## O que é
+
+O Lad. fica no topo da tela, pequeno e discreto. Você segura uma tecla, fala, e ele faz: abre programas e
+sites, fecha janelas, pesquisa, tira print, grava a tela, mostra FPS e temperatura, responde perguntas e
+conversa por voz. O que dá para fazer sem inteligência artificial ele faz na hora, direto no Windows; o resto
+ele passa para a IA.
 
 [**⬇ Baixar o Lad.**](https://github.com/lordlalau/lad/releases/latest)
 
-</div>
+> Os GIFs desta página foram gravados da interface do Lad. com dados de exemplo.
 
----
+## A ilha
 
-# A ilha e a música
+<p align="center">
+  <img src="gifs/ilha.gif" alt="A ilha aberta, passando pelas abas" />
+</p>
 
-<img src="musica.gif" alt="A ilha abrindo com a música tocando e fechando com as ondas" width="640">
+Passe o mouse no topo da tela e a ilha abre. As abas:
 
-Fica pequena no topo da tela e se abre quando o mouse chega perto. Dentro dela mora o **Lad.**, que pisca, segue o mouse com os olhos, cochila e curte a sua música.
+| Aba | O que tem |
+|---|---|
+| **Início** | Saudação, hora e data. |
+| **Música** | O que está tocando, com atalhos para Spotify e YouTube Music. |
+| **Chat** | Conversa por texto com ChatGPT ou Claude. |
+| **FPS** | FPS, 1% low, tempo de quadro, uso e temperatura de GPU e CPU, VRAM e RAM. |
+| **Alarmes** | Cronômetro, alarmes, lembretes e um calendário com datas fixas. |
+| **Gastos** | Quanto a sua conta da OpenAI gastou, com gráfico por dia. |
+| **Configurações** | Tudo o que dá para ajustar. |
 
-Mostra o que está tocando no **Spotify** e no **YouTube Music**, com capa e controles. Na ilha compacta, aparecem **ondas animadas** no ritmo da música.
+## Voz
 
----
+<p align="center">
+  <img src="gifs/voz.gif" alt="O núcleo ouvindo, pensando e respondendo; dados e avisos na ilha fechada" />
+</p>
 
-# Monitor de FPS
+Segure a tecla de falar (padrão: **End**), fale e solte. O núcleo mostra se o Lad. está ouvindo, pensando ou
+respondendo. Alguns exemplos do que ele entende:
 
-<img src="fps.gif" alt="Monitor de FPS com gráfico, CPU, GPU e temperatura" width="640">
+**Computador**
+- "abre o YouTube no canal do Alanzoka", "pesquisa preço da RTX 5080", "abre o Spotify"
+- "fecha o Discord", "força fechar o Chrome", "fecha tudo", "minimiza essa janela"
+- "aumenta o volume", "pausa a música", "abre o gerenciador de tarefas", "abre a pasta Downloads"
+- "esvazia a lixeira", "limpa os arquivos temporários", "quanto espaço tenho no disco", "modo escuro"
+- "bloqueia a tela", "tira um print", "que horas são?"
 
-**FPS do jogo em tempo real**, mais 1% Low, frametime, CPU, GPU e temperatura, com gráfico. Com a ilha compacta, os números ficam à vista no topo da tela.
+**O próprio Lad.**
+- "coloca FPS, GPU e VRAM na ilha", "tira os dados da ilha"
+- "me lembra de beber água às 15h", "cronômetro de 10 minutos", "marca no calendário dia 20: reunião"
+- "lembra que meu monitor principal é o da esquerda" (memória de longo prazo)
 
-<sub>Os números do GIF são de demonstração.</sub>
+**Capturas**
+- "tira um print", "print do monitor 2"
+- "grava a tela", "para de gravar", "liga o replay", "salva os últimos 30 segundos"
 
----
+**Star Citizen** (dados reais da [UEX](https://uexcorp.space) e da [Star Citizen Wiki](https://star-citizen.wiki))
+- "qual a melhor rota de comércio saindo de Area18?", "onde vende Polaris Bit?"
+- "consigo quebrar uma pedra de 12 mil de massa com 30% de resistência?"
 
-# Chat com IA
+Ações que precisam de administrador não são feitas escondido: o Windows mostra a pergunta de permissão e
+você decide.
 
-<img src="chat-banana.gif" alt="Chat respondendo e gerando a imagem de uma banana no espaço" width="720">
+## Chat
 
-Converse com o **ChatGPT** (pela sua conta ou com chave de API) ou com o **Claude**. Ele pesquisa na internet e **gera imagens**. Clique numa imagem para ver em tela cheia.
+<p align="center">
+  <img src="gifs/chat.gif" alt="Aba de chat" />
+</p>
 
-<sub>A geração de imagem pela conta exige ChatGPT Go ou superior.</sub>
+Conversa por texto com ChatGPT (chave da OpenAI) ou Claude (chave da Anthropic), dentro da ilha.
 
----
+## Configurações
 
-# Alertas
+<p align="center">
+  <img src="gifs/configuracoes.gif" alt="Configurações" />
+</p>
 
-<img src="alertas.gif" alt="Cronômetro de 5 minutos terminando, com a ilha vibrando" width="640">
+- **Geral:** tecla de falar, voz, microfone, volume, sons.
+- **Visual** e **Ilha e tempo:** aparência, cidade do clima, comportamento da ilha.
+- **Chat:** chaves de API e modelo.
+- **Resumo do dia:** o que o Lad. fala quando abre (saudação, alarmes, calendário, clima, gastos, notícias).
+- **Capturas:** pasta dos prints e vídeos, atalhos de até 3 teclas (ex.: Alt + Q), replay, 60 ou 30 fps,
+  gravar ou não o microfone.
 
-**Cronômetros** e **alarmes** com dia e horário. Quando chega a hora, a ilha vibra, toca um som e o Lad. leva um susto.
+## Prints e gravação
 
----
+- Os arquivos vão para **Imagens › Lad imagens** (dá para trocar a pasta).
+- O print é feito pelo próprio Lad., do monitor inteiro onde está a janela da frente.
+- A gravação e o replay usam o gravador que já vem no Windows, sem abrir a tela dele. Por isso gravam a
+  janela de um jogo ou programa, não a Área de Trabalho.
 
-# Lembretes
-
-<img src="lembrete.gif" alt="Ilha compacta mostrando 'Já bebeu uma aguinha, lenda?'" width="420">
-
-A cada 2 horas, o Lad. lembra você de beber água. De madrugada, ele avisa que já está tarde.
-
----
-
-# Mini Lads
-
-<img src="mini.gif" alt="Mini Lads nos botões e o Lad. ficando verde com o Spotify" width="640">
-
-Cada ferramenta tem o seu Lad. em miniatura, com cor e jeitinho próprios. Se você quiser, o Lad. grande também **fica da cor da ferramenta** que você escolher.
-
----
-
-# Guarda-Roupa
-
-<img src="roupa.gif" alt="Lad. trocando de cor no Guarda-Roupa" width="720">
-
-**12 cores pastel** para deixar o Lad. do seu jeito.
-
----
-
-# E mais
-
-- **Atualiza sozinho**: quando sai uma versão nova, é só um clique.
-- **Leve**: instalador de 2,4 MB e economia de memória quando a ilha está compacta.
-- **Configurações** para o seu nome, a cidade do clima, os sons, o jeito da ilha compacta e muito mais.
-- **Inicia com o Windows**, se você quiser.
-
----
-
-# Como instalar
+## Como instalar
 
 1. Abra a página de [**Releases**](https://github.com/lordlalau/lad/releases/latest).
-2. Em **Assets**, baixe o arquivo **`Lad_x.x.x_x64-setup.exe`**.
-3. Abra o instalador.
-4. Se aparecer **"O Windows protegeu o computador"**, clique em **Mais informações** e depois em **Executar assim mesmo**. O aviso aparece porque o app é novo.
-5. Para ver o FPS dos jogos, aceite instalar o **PresentMon** quando o instalador perguntar.
+2. Em **Assets**, baixe o arquivo **`Lad_x.x.x_x64-setup.exe`** e abra.
+3. Se aparecer **"O Windows protegeu o computador"**, clique em **Mais informações** e depois em
+   **Executar assim mesmo**. O aviso aparece porque o app é novo.
+4. Abra a ilha, vá em **Configurações › Chat** e cole a sua chave da OpenAI (a voz e a IA usam essa chave).
+5. Em **Configurações › Geral**, escolha a tecla de falar, a voz e o microfone.
+6. Opcional: para ver FPS e temperaturas, aceite instalar o Intel PresentMon (no instalador ou pela aba **FPS**).
+7. Opcional: para a aba **Gastos**, cole uma chave de administrador (Admin key) da OpenAI.
+
+As chaves ficam guardadas no Gerenciador de Credenciais do Windows, não em arquivos do Lad.
+O Lad. se atualiza sozinho quando sai uma versão nova.
 
 Requer **Windows 10 ou 11 (64 bits)**.
 
----
+## Privacidade
 
-<div align="center">
+- Por padrão, o microfone só é usado enquanto você segura a tecla de falar; o que você fala vai para a OpenAI, que faz a voz e a IA.
+- O registro de diagnóstico da voz guarda apenas etapas e contagem de palavras, nunca a chave nem o que foi dito.
+- A memória de longo prazo fica só no seu PC.
+
+## Licença
 
 © 2026 Lad. Todos os direitos reservados.
 
-</div>
+Spotify, YouTube, ChatGPT, OpenAI, Claude, Star Citizen e Xbox são marcas dos seus donos. O Lad. não tem
+ligação com essas empresas.
